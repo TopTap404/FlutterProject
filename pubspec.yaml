@@ -1,0 +1,39 @@
+name: upark
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0-218.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_nav_bar: ^5.0.6
+    
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #flutter_lints: ^3.0.0
+ 
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - image\image 38.png
+    - image\10740612.png
+    - image\1314141.png
+    - image\11111111.png
+    - image\22222222222.png
+    - image\Group 20.png
+    - image\image 32.png
+    - image\image 44.png
+    - image\image 42.png
+    - image\image 35.png
+  fonts:
+  - family: LilitaOne
+    fonts:
+      - asset: fonts\LilitaOne-Regular.ttf
+
