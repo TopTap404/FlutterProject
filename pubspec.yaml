@@ -10,6 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
   google_nav_bar: ^5.0.6
+  http: ^0.13.3
+  flutter_svg: ^0.22.0
     
 
 dev_dependencies:
@@ -32,6 +34,8 @@ flutter:
     - image\image 44.png
     - image\image 42.png
     - image\image 35.png
+    - image\Group 21.png
+    - image\image 7.png
   fonts:
   - family: LilitaOne
     fonts:

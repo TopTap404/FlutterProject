@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:upark/home.dart';
+import 'package:upark/profile.dart';
 
 class Menu extends StatelessWidget {
   const Menu({super.key});
@@ -280,7 +281,7 @@ class Menu extends StatelessWidget {
                 borderRadius: BorderRadius.all(Radius.circular(24))),
             child: Row(
               children: [
-                SizedBox(width: 25),
+                SizedBox(width: 20),
                 IconButton(
                   padding: EdgeInsets.all(0.0),
                   icon: Image.asset('image/image 32.png'),
@@ -290,18 +291,26 @@ class Menu extends StatelessWidget {
                         MaterialPageRoute(builder: (contex) => Homepage()));
                   },
                 ),
-                SizedBox(width: 25),
+                SizedBox(width: 20),
                 IconButton(
                   padding: EdgeInsets.all(0.0),
                   icon: Image.asset('image/image 42.png'),
                   iconSize: 5,
                   onPressed: () {},
                 ),
-                SizedBox(width: 25),
+                SizedBox(width: 20),
                 Image.asset('image/image 44.png'),
-                SizedBox(width: 25),
-                Image.asset('image/image 35.png'),
-                SizedBox(width: 25),
+                SizedBox(width: 20),
+                IconButton(
+                  padding: EdgeInsets.all(0.0),
+                  icon: Image.asset('image/image 35.png'),
+                  iconSize: 5,
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (contex) => Profile()));
+                  },
+                ),
+                SizedBox(width: 20),
               ],
             ),
           ))),
