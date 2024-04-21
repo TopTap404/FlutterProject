@@ -4,9 +4,7 @@ import 'package:upark/menu.dart';
 import 'package:http/http.dart' as http;
 
 void getDATA() {
-  http
-      .get(Uri.parse('https://jsonplaceholder.typicode.com/posts/1'))
-      .then((value) {
+  http.get(Uri.parse('http://192.168.1.100:3000/accounts')).then((value) {
     print(value.body);
   });
 }
